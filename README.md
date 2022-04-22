@@ -28,5 +28,5 @@ Mail me <andrii@muffin.in.ua>.
 - Russian (Free-speaking)
 - English (Intermediate)
 - Polish (Very basic)
-- Italina (Very basic)
+- Italian (Very basic)
   
