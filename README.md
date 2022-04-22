@@ -1,9 +1,32 @@
-- 👋 Hi, I’m @MuffinKing-jpeg
-- 👀 I’m interested in Frontend development 
-- 🌱 I’m currently learning random stuff
-- 💞️ I’m looking to collaborate on something awesome
+# Who i am? 
 
-<!---
-MuffinKing-jpeg/MuffinKing-jpeg is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+My name is Andrii, and i'm 21 y.o.  
+I'm am junior JS developer (and more).
+If you had a job for me, I would look at it.  
+Mail me <andrii@muffin.in.ua>.
+
+## What i am doing?
+
+- Studying front-end development
+- Trying to play on guitar
+- Working (。﹏。*)
+- Learning some server-side stuff
+- 3D printing
+- Product presentations at Blender
+- UI/UX Design
+
+## What am i good at
+
+- Client  and transport management
+- CAD modelling
+- SPENDING CASH
+- Cooking 🔥
+
+## Languages
+
+- Ukranian (Native)
+- Russian (Free-speaking)
+- English (Intermediate)
+- Polish (Very basic)
+- Italina (Very basic)
+  
