@@ -21,6 +21,7 @@ Mail me <andrii@muffin.in.ua>.
 - CAD modelling
 - SPENDING CASH
 - Cooking 🔥
+- (╯°□°）╯︵ ┻━┻
 
 ## Languages
 
