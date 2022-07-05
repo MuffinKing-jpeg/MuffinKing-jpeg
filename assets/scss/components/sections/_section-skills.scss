@@ -1,0 +1,8 @@
+@use "../../common/mixin" as *;
+@use "../../common/presets/variables" as *;
+
+.section-skills {
+    p {
+        font-size: 1.125rem;
+    }
+}

@@ -1,0 +1,46 @@
+@use "../../common/mixin" as *;
+@use "../../common/presets/variables" as *;
+
+.section-about {
+    display: flex;
+    flex-direction: column;
+    @include sm-min {
+        font-size: 1.125rem;
+    }
+    @include sm {
+        font-size: 0.725rem;
+    }
+    @include lg {
+        max-height: calc(100vh - $gap-x6);
+    }
+}
+.about {
+    height: 100%;
+    &__info {
+        display: flex;
+        flex-direction: column;
+    }
+    &__list {
+        padding-inline-start: 1em;
+        li {
+            i {
+                margin-right: 0.25em;
+            }
+            &::marker {
+                content: "";
+            }
+        }
+    }
+    &__social {
+        margin-top: auto;
+    }
+}
+.my-name {
+    font-weight: 800;
+    @include sm-min {
+        font-size: 2.5rem;
+    }
+    @include sm {
+        font-size: 1.85rem;
+    }
+}
