@@ -1,0 +1,69 @@
+@use "../common/mixin" as *;
+@use "../common/presets/variables" as *;
+
+main {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: $gap-x4;
+        &:first-of-type {
+            padding-top: $gap-x5;
+            height: 100vh;
+        }
+    }
+}
+
+.section {
+    &--about {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .about {
+            &__info {
+                display: flex;
+                flex-direction: column;
+            }
+            &__list {
+                padding-inline-start: 1em;
+                li {
+                    i {
+                        margin-right: 0.25em;
+                    }
+                    &::marker {
+                        content: "";
+                    }
+                }
+            }
+            &__social {
+                margin-top: auto;
+                div i {
+                    margin-right: 0.25em;
+                }
+            }
+        }
+        .my-name {
+            font-weight: 800;
+            @include sm-min {
+                font-size: 2.5rem;
+            }
+            @include sm {
+                font-size: 1.85rem;
+            }
+        }
+    }
+    .my-photo {
+        width: 100%;
+        height: 100%;
+        min-height: 260px;
+        background-image: url("../img/andriy_main.jpg");
+        background-position: center;
+        background-size: cover;
+        filter: grayscale(100%) saturate(10%) contrast(110%) brightness(115%);
+    }
+    @include sm-min {
+        font-size: 1.125rem;
+    }
+    @include sm {
+        font-size: 0.825rem;
+    }
+}
