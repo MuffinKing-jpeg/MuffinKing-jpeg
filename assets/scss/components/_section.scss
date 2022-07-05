@@ -4,11 +4,24 @@
 main {
     .container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         gap: $gap-x4;
         &:first-of-type {
             padding-top: $gap-x5;
-            height: 100vh;
+            @media (min-height: 1000px) {
+                height: 100vh;
+                max-height: 1000px;
+            }
+            @media (max-height: calc(1000px - 0.2px)) {
+                min-height: 100vh;
+            }
+        }
+        @include lg-min {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+        @include lg {
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
         }
     }
 }
@@ -17,8 +30,8 @@ main {
     &--about {
         display: flex;
         flex-direction: column;
-        height: 100%;
         .about {
+            height: 100%;
             &__info {
                 display: flex;
                 flex-direction: column;
@@ -54,16 +67,34 @@ main {
     .my-photo {
         width: 100%;
         height: 100%;
-        min-height: 260px;
         background-image: url("../img/andriy_main.jpg");
         background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
         filter: grayscale(100%) saturate(10%) contrast(110%) brightness(115%);
+        @include md-min {
+            min-height: unset;
+        }
+        @include lg-md {
+            min-height: 800px;
+        }
+        @include md-sm {
+            min-height: 650px;
+        }
+        @include sm-xs {
+            min-height: 500px;
+        }
+        @include xs {
+            min-height: 350px;
+        }
     }
     @include sm-min {
         font-size: 1.125rem;
     }
     @include sm {
-        font-size: 0.825rem;
+        font-size: 0.725rem;
+    }
+    @include lg {
+        max-height: calc(100vh - $gap-x5 - $gap);
     }
 }
