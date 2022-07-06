@@ -8,12 +8,13 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 1rem;
     filter: grayscale(100%) saturate(10%) contrast(110%) brightness(115%);
     @include md-min {
         min-height: unset;
     }
     @include lg-md {
-        min-height: 800px;
+        min-height: 850px;
     }
     @include md-sm {
         min-height: 650px;

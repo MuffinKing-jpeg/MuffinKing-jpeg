@@ -173,6 +173,11 @@
         @content;
     }
 }
+@mixin xs-xx {
+    @media (max-width: calc($xs - 0.2px)) and (min-width: $xx) {
+        @content;
+    }
+}
 
 /* xx */
 @mixin xx-min {
