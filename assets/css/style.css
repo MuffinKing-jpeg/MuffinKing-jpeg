@@ -373,6 +373,7 @@ main .container {
 }
 main .container:first-of-type {
   padding-top: 100px;
+  min-height: 100vh;
 }
 
 .section-about {
@@ -431,6 +432,7 @@ main .container:first-of-type {
 .section-projects {
   display: grid;
   grid-template-columns: 1fr;
+  height: unset;
   gap: 40px;
 }
 
@@ -442,7 +444,7 @@ main .container:first-of-type {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-height: 400px;
+  max-height: 300px;
   padding: 20px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.1);
@@ -542,10 +544,6 @@ main .container:first-of-type {
   }
 }
 @media (min-height: 900px) {
-  main .container:first-of-type {
-    height: 100vh;
-    max-height: 900px;
-  }
   .about__social {
     margin-top: 380px;
   }
@@ -558,7 +556,6 @@ main .container:first-of-type {
 }
 @media (max-width: 991.8px) {
   main .container {
-    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
   }
   .section-about {
@@ -571,9 +568,6 @@ main .container:first-of-type {
   }
 }
 @media (max-height: 899.8px) {
-  main .container:first-of-type {
-    min-height: 100vh;
-  }
   .about__social {
     margin-top: auto;
   }

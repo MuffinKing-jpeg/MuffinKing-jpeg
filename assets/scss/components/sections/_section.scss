@@ -7,20 +7,13 @@ main {
         gap: $gap-x4;
         &:first-of-type {
             padding-top: $gap-x5;
-            @media (min-height: 900px) {
-                height: 100vh;
-                max-height: 900px;
-            }
-            @media (max-height: calc(900px - 0.2px)) {
-                min-height: 100vh;
-            }
+            min-height: 100vh;
         }
         @include lg-min {
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
         }
         @include lg {
-            grid-template-rows: 1fr 1fr;
             grid-template-columns: 1fr;
         }
     }
