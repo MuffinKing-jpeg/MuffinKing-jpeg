@@ -1,6 +1,6 @@
 # Who i am? 
 
-My name is Andrii, and i'm 21 y.o.  
+My name is Andrii, and i'm 22 y.o.  
 I'm am junior JS developer (and more).
 If you had a job for me, I would look at it.  
 Mail me <andrii@muffin.in.ua>.
@@ -17,9 +17,11 @@ Mail me <andrii@muffin.in.ua>.
 
 ## What am i good at
 
-- Client  and transport management
+- TypeScript
+- SCSS
+- Angular
+- TailwindCSS
 - CAD modelling
-- SPENDING CASH
 - Cooking 🔥
 - (╯°□°）╯︵ ┻━┻
 
