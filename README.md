@@ -1,7 +1,7 @@
 # Who i am? 
 
 My name is Andrii, and i'm 22 y.o.  
-I'm am junior JS developer (and more).
+I'm am JS developer (and more).
 If you had a job for me, I would look at it.  
 Mail me <andrii@muffin.in.ua>.
 
@@ -31,5 +31,4 @@ Mail me <andrii@muffin.in.ua>.
 - Russian (Free-speaking)
 - English (Intermediate)
 - Polish (Very basic)
-- Italian (Very basic)
   
