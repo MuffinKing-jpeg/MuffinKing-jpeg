@@ -1,6 +1,6 @@
 # Who i am? 
 
-My name is Andrii, and i'm 22 y.o.  
+My name is Andrii, and i'm 24 y.o.  
 I'm am JS developer (and more).
 If you had a job for me, I would look at it.  
 Mail me <andrii@muffin.in.ua>.
