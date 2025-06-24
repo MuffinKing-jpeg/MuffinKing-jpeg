@@ -1,34 +1,18 @@
-# Who i am? 
+# Who i am?
 
-My name is Andrii, and i'm 24 y.o.  
-I'm am JS developer (and more).
-If you had a job for me, I would look at it.  
-Mail me <andrii@muffin.in.ua>.
+My name is Andrii and there is what i'm doing:
 
-## What i am doing?
-
-- Studying front-end development
-- Trying to play on guitar
-- Working (。﹏。*)
-- Learning some server-side stuff
+- Hardware development
+- Embedded development
+- Hardware QA
+- Angular front-end
+- CAD
 - 3D printing
-- Product presentations at Blender
-- UI/UX Design
-
-## What am i good at
-
-- TypeScript
-- SCSS
-- Angular
-- TailwindCSS
-- CAD modelling
-- Cooking 🔥
-- (╯°□°）╯︵ ┻━┻
+- Screaming in to the void
 
 ## Languages
 
-- Ukranian (Native)
-- Russian (Free-speaking)
+- Ukrainian (Native)
 - English (Intermediate)
 - Polish (Very basic)
   
